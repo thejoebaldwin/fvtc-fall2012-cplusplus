@@ -1,4 +1,4 @@
-﻿Build started 9/10/2012 2:07:19 PM.
+﻿Build started 9/13/2012 11:32:56 AM.
      1>Project "C:\Users\TEMP\Desktop\GitHub\c-plus-plus-demo\09_10_12\ColorOutput\ColorOutput\ColorOutput.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\ColorOutput.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -18,4 +18,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.96
+Time Elapsed 00:00:01.10
