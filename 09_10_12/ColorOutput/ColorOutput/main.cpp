@@ -5,9 +5,21 @@
 #include <Windows.h>
 using namespace std;
 
+void setConsole();
+
+
 int main()
 {
-    //color value for console
+  setConsole();
+	cout << "hello";
+	_getch();
+	return 0;
+}
+
+
+void setConsole()
+{
+	  //color value for console
 	int color = 25;  
 	//console reference	
 	HANDLE	hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -22,35 +34,10 @@ int main()
     font->dwFontSize.X = 10;
     font->dwFontSize.Y = 18;
     
-	
 
-        //SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), NULL, lpConsoleCurrentFontEx);
-
-
-	
-	
 	SetCurrentConsoleFontEx(hConsole, false, font);
-    //SetConsoleTextAttribute(hConsole, color); 
-    //SetConsoleTextAttribute(hConsole, 0x0C);
-
-
-
-
-	//while (color < 255)
-	//{
-	//	cout << "Using Color:" << color << endl; 
-	//	//accept input for user
-	//	//cin >> color;	
-	//	color++;
-	//	//set the color of the console output
-	//	SetConsoleTextAttribute(hConsole, color); 
-	//}
+    
 	SetConsoleTextAttribute(hConsole, 240); 
-		
-		
-	cout << font->FaceName << endl;
 
-	cout << "hello";
-	_getch();
-	return 0;
+
 }
