@@ -1,0 +1,17 @@
+﻿Build started 10/24/2012 2:17:56 PM.
+     1>Project "\\appdata1.fvtc.edu\userdata$\baldwinj\my documents\visual studio 2010\Projects\numeric\numeric\numeric.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\numeric.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         numeric.vcxproj -> \\appdata1.fvtc.edu\userdata$\baldwinj\my documents\visual studio 2010\Projects\numeric\Debug\numeric.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\numeric.unsuccessfulbuild".
+         Touching "Debug\numeric.lastbuildstate".
+     1>Done Building Project "\\appdata1.fvtc.edu\userdata$\baldwinj\my documents\visual studio 2010\Projects\numeric\numeric\numeric.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
