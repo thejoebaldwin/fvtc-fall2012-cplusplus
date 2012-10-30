@@ -8,7 +8,7 @@ using namespace std;
 void setConsole();
 double convertToKilometers(double Miles);
 void outputGrades(float arrGrades[], int length);
-
+void clearInput();
 
 
 
@@ -51,7 +51,7 @@ int main()
   cout << "ELEMENT 0 = " << grades[0] << endl;
   
 
-
+  clearInput();
   //cout << quizzes[4];
   
   _getch();
