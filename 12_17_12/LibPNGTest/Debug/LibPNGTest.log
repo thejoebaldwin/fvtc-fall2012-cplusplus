@@ -1,0 +1,174 @@
+﻿Build started 12/18/2012 10:58:59 AM.
+     1>Project "C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\LibPNGTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LibPNGTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c example.c gzclose.c gzlib.c gzread.c gzwrite.c infback.c inffast.c inflate.c inftrees.c png.c pngerror.c pnggccrd.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtest.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c trees.c uncompr.c zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         pngwutil.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwutil.c(199): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwutil.c(1265): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwutil.c(1656): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwutil.c(1658): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngwtran.c
+         pngwrite.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwrite.c(450): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwrite.c(554): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwrite.c(559): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwrite.c(627): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngwrite.c(632): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngwio.c
+         pngvcrd.c
+         pngtrans.c
+         pngtest.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngtest.c(725): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngtest.c(737): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngtest.c(1366): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngtest.c(1378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         pngset.c
+         pngrutil.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngrutil.c(295): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngrutil.c(400): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngrtran.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngrtran.c(1342): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngrio.c
+         pngread.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngread.c(140): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngread.c(145): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngread.c(228): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\pngread.c(233): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngpread.c
+         pngmem.c
+         pngget.c
+         pnggccrd.c
+         pngerror.c
+         Generating Code...
+         Compiling...
+         png.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\png.c(709): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(355): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzwrite.c(561): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         gzread.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzread.c(586): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         gzlib.c
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(191): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(206): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(211): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(239): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(272) : see declaration of '_wopen'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(239): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(312) : see declaration of 'open'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(597): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(598): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\gzlib.c(599): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         gzclose.c
+         example.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\main.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\main.cpp(26): warning C4101: 'interlace_type' : unreferenced local variable
+     1>c:\users\baldwinj\desktop\c-plus-plus-opengl\12_17_12\libpngtest\main.cpp(26): warning C4101: 'color_type' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\Debug\LibPNGTest.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LibPNGTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\Debug\LibPNGTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\Debug\LibPNGTest.lib" /MACHINE:X86 Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\example.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\main.obj
+         Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pnggccrd.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtest.obj
+         Debug\pngtrans.obj
+         Debug\pngvcrd.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         LibPNGTest.vcxproj -> C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\Debug\LibPNGTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\Debug\LibPNGTest.exe;#1" /manifest Debug\LibPNGTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\LibPNGTest.unsuccessfulbuild".
+         Touching "Debug\LibPNGTest.lastbuildstate".
+     1>Done Building Project "C:\Users\baldwinj\Desktop\c-plus-plus-opengl\12_17_12\LibPNGTest\LibPNGTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.49

@@ -1,0 +1,212 @@
+
+#include "square.h"
+#include <string>
+
+
+
+
+square::square()
+{
+	isRotating = false;
+	_width = 5.0f;
+	_isVisible = true;
+	x = 0;
+	y = 0;
+	_color = new GLfloat[4];
+	_color[0] = 1;
+	_color[1] = 0;
+	_color[2] = 0;
+	_color[3] = 1;
+	
+	_velocity_x = getNewVelocity() * getNegative();
+	
+	_velocity_y = getNewVelocity() * getNegative();
+	
+	_angleIncrement_x = (rand() % 100) /(float) 1000 * getNegative();
+	_angleIncrement_z = (rand() % 100) /(float) 1000 * getNegative();
+	_type = "square";
+	_angle = 0;
+}
+
+
+int square::getNegative()
+{
+	int multiplier = 1;
+	if (rand() % 2 == 0) multiplier = -1;
+	return multiplier;
+}
+void square::setLimits(GLfloat top, GLfloat bottom, GLfloat left, GLfloat right)
+{
+	_top = top;
+	_bottom = bottom;
+	_left = left;
+	_right = right;
+}
+
+void square::rotate()
+{
+	if (isRotating)
+	{
+		_angle += _angleIncrement_x;
+	}
+}
+
+
+//mutator to update square position. Can detect if a collision with boundaries occurred.
+void square::move()
+{
+	bool isCollision = false;
+
+	//_right, _left, _top and _bottom are boundaries WE set to represent the edge of the screen. 
+	//if square goes past it, flip the corresponding velocity to opposite
+	//also set the flag that a collision ocurred.
+	if (x > _right)
+	{
+		_velocity_x = _velocity_x * -1;
+		isCollision = true;
+	}
+	else if (x < _left)
+	{
+		_velocity_x = _velocity_x * -1;
+		isCollision = true;
+	}
+	if (y > _top)
+	{
+		_velocity_y = _velocity_y * -1;
+		isCollision = true;
+	}
+	else if (y < _bottom)
+	{
+		_velocity_y = _velocity_y * -1;
+		isCollision = true;
+	}
+	//if a collision occured then randomly set a new color and width
+	if (isCollision)
+	{
+		_color[0] = (rand() % 10) /(float) 10;
+		_color[1] = (rand() % 10) /(float) 10;
+		_color[2] =  (rand() % 10) /(float) 10;
+		_width = (rand() % 10);
+	}
+	//update the x and y position according to the velocities
+	x += _velocity_x;
+	y += _velocity_y;
+}
+
+GLfloat square::getNewVelocity()
+{
+	
+return (rand() % 100) /(float) 10000;
+
+}
+
+//constructor to set width and color
+square::square(GLfloat width, GLfloat *color)
+{
+	_width = width;
+	_isVisible = true;
+	x = 0;
+	y = 0;
+	_color = new GLfloat[4];
+	_color[0] = color[0];
+	_color[1] = color[1];
+	_color[2] = color[2];
+	_color[3] = color[3];
+	_type = "square";
+}
+
+//set the visible flag to true
+void square::show()
+{
+	_isVisible = true;
+}
+
+//set the visible flag to false
+void square::hide()
+{
+	_isVisible = false;
+}
+
+//compute the vertices and render the square using GL_QUADS
+void square::draw()
+{
+	if (_isVisible)
+	{
+	static GLfloat white[]   = {1.0, 1.0, 1.0, 0.5};
+	 glPushMatrix();
+	 glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+     glEnable(GL_BLEND);
+	   glTranslatef(x, y, z);
+	   glRotatef(_angle, 0.0f, 0.0f, 1.0f);
+	   glBegin(GL_QUADS);
+	       glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, white);
+		    //4
+		      glTexCoord2f(0.0, 0.0);
+	       glVertex3f(0,0,  0.0f);
+		   //1
+		   glTexCoord2f(0.0, 1.0);
+		   glVertex3f(0,_width,  0.0f);
+		   //2
+		      glTexCoord2f(1.0, 1.0);
+		   glVertex3f(_width,_width,  0.0f);
+		   //3
+		      glTexCoord2f(1.0, 0.0);
+           glVertex3f(_width,0,  0.0f);
+		  
+	   glEnd();
+	 glPopMatrix();
+	}
+}
+
+//move the square x and y values 
+void square::move(GLfloat move_x, GLfloat move_y)
+{
+	x += move_x;
+	y += move_y;
+}
+
+//set the RGBA values for the render color
+void square::setColor(GLfloat* color)
+{
+	_color[0] = color[0];
+	_color[1] = color[1];
+	_color[2] = color[2];
+	_color[3] = color[3];
+}
+
+
+GLint square::getName()
+{
+	return _name;
+}
+
+void square::setName(GLint name)
+{
+	_name = name;
+}
+
+string square::getType()
+{
+	return _type;
+}
+
+void square::grow()
+{
+	_width *= 1.05f;
+}
+
+
+ostream& operator<<(ostream &os, square &s)
+{
+	os << "Width:" << s._width << "||x:" << s.x << "||y:" << s.y << endl;
+	os << "||I am a " << s._type << endl;
+	return os;
+}
+
+
+square& operator+(square &s1, square &s2)
+{
+	square sum;
+	sum._width = s1._width + s2._width;
+	return sum;
+}

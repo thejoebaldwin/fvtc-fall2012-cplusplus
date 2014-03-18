@@ -1,0 +1,21 @@
+﻿Build started 12/2/2012 11:59:17 PM.
+     1>Project "C:\Projects\c-plus-plus-opengl\cs459\vase\vase.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\vase.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.exe not found or not built by the last incremental link; performing full link
+         vase.vcxproj -> C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Projects\c-plus-plus-opengl\cs459\vase\Debug\vase.exe;#1" /manifest Debug\vase.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\vase.unsuccessfulbuild".
+         Touching "Debug\vase.lastbuildstate".
+     1>Done Building Project "C:\Projects\c-plus-plus-opengl\cs459\vase\vase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

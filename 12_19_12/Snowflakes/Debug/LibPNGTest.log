@@ -1,0 +1,18 @@
+﻿Build started 12/19/2012 6:17:51 PM.
+     1>Project "C:\Projects\c-plus-plus-opengl\12_19_12\Snowflakes\LibPNGTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Snowflakes.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         LibPNGTest.vcxproj -> C:\Projects\c-plus-plus-opengl\12_19_12\Snowflakes\Debug\Snowflakes.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Snowflakes.unsuccessfulbuild".
+         Touching "Debug\Snowflakes.lastbuildstate".
+     1>Done Building Project "C:\Projects\c-plus-plus-opengl\12_19_12\Snowflakes\LibPNGTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24
